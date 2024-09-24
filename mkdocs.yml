@@ -1,0 +1,22 @@
+site_name: Jak korzystać z genAI na uczelni? 
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  # logo: assets/logo.png
+  features:
+    - navigation.instant
+    - navigation.footer
+  language: pl 
+extra_css: [extra.css]
+nav:
+  - Rekomendacje: "index.md"
+  - Badanie DELab UW: "badanie.md"
+  - Wytyczne: "wytyczne.md"
+markdown_extensions:
+  - toc:
+      title: Na tej stronie
+  - pymdownx.details
+  - admonition
+  - pymdownx.superfences
+
+
